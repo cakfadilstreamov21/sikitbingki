@@ -131,12 +131,13 @@ function auto_safeconvert() {
         }
         if (a_to_vh == false) {
             var encryptedUrl = Base64.encode(a_to_vi);
-            a_to_ve[i].href = "https://sikitbingki.blogspot.com/2018/07/protect-your-website-content-with.html?url=" + encryptedUrl;
-            a_to_ve[i].rel = "nofollow";
-            a_to_vb++;
-            a_to_vc += i + ":::" + a_to_ve[i].href + "\n";
-        }
-    }
+            var x=Math.floor((Math.random()*5)+ 1);
+            var xxx=null;
+            if(x=="1"){xxx="07/cara-kerja-trading-forex.html"}
+            if(x=="2"){xxx="07/10-headphones-headset-terbaik-dan.html"}
+            if(x=="3"){xxx="07/merefresh-halaman-secara-otomatis-untuk.html"}
+            if(x=="4"){xxx="07/protect-your-website-content-with.html"}
+            if(x=="5"){xxx="07/bisnis-online-cepat-kaya-bermodalkan.html"}a_to_ve[i].href="https://sikitbingki.blogspot.com/2018/"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"n";}}
     var a_to_vj = document.getElementById("anonyminized");
     var a_to_vk = document.getElementById("found_links");
     if (a_to_vj) {
